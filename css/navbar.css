@@ -1,0 +1,22 @@
+nav {
+    background-color: black;
+    color: white;   
+    padding: 16px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+nav a {
+    margin-left: 8px;
+}
+
+nav * {
+    display: inline-block;
+}
+
+footer {
+    background-color: black;
+    color: white;   
+    padding: 16px;
+}

@@ -1,0 +1,18 @@
+@import url('fonts.css');
+@import url('goosegrid.css');
+@import url('navbar.css');
+
+#pageContent {
+    padding: 16px;
+    background-color: darkslategray;
+    color: white;
+    padding-top: 83px;
+}
+
+a:link, a:visited {
+    color: white;
+}
+
+body {
+    margin: 0px;
+}

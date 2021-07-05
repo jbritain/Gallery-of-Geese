@@ -1,0 +1,63 @@
+{
+    "geese": [
+        {
+            "name" : "Poster Goose",
+            "description" : "This goose is the first one who appears if you google 'goose' so it gets to be here",
+            "filename" : "poster.jpg"
+        },
+
+        {
+            "name" : "Angry Fellow",
+            "description" : "You have dared to approach this rather rotund fellow, you will regret such an endeavour",
+            "filename" : "angry fellow.jpg"
+        },
+
+        {
+            "name" : "The Calm One",
+            "description" : "Even in the most fiery of situations, this goose will remain perfectly calm. One could say he is based.",
+            "filename" : "flames.jpg"
+        },
+
+        {
+            "name" : "Evil Eye",
+            "description" : "Once you make eye contact, you are locked in this goose's eerie gaze for the short remainder of your lifetime as it rapidly approaches you",
+            "filename" : "thestare.jpg"
+        },
+
+        {
+            "name" : "Banana",
+            "description" : "He is banan",
+            "filename" : "banana.jpg"
+        },
+
+        {
+            "name" : "Goose Bong",
+            "description" : "Get stoned in style with this goose themed bong",
+            "filename" : "bong.jpg"
+        },
+
+        {
+            "name" : "Gangsta Goose",
+            "description" : "This absolute G has arms and isn't afraid to use them",
+            "filename" : "arms.jfif"
+        },
+
+        {
+            "name" : "Scott",
+            "description" : "So anyway, he started blasting",
+            "filename" : "gun.jpg"
+        },
+
+        {
+            "name" : "The Sphere",
+            "description" : "The Sphere is able to instantly incapacitate all enemies by way of an attack similar to Sonic's dash.",
+            "filename" : "fat.jpg"
+        },
+
+        {
+            "name" : "Pegagoose",
+            "description" : "We ride at dawn",
+            "filename" : "horse.jfif"
+        }
+    ]
+}
