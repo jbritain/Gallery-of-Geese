@@ -14,7 +14,7 @@ function createGooseGrid(){
 
     document.getElementById("gotdName").innerHTML = gooseOfTheDay.name;
     document.getElementById("gotdDescription").innerHTML = gooseOfTheDay.description;
-    document.getElementById("gotdImg").src = "/assets/geese/" + gooseOfTheDay.filename;
+    document.getElementById("gotdImg").src = window.location + "/assets/geese/" + gooseOfTheDay.filename;
 
 }
 
@@ -40,7 +40,7 @@ function addGoose(name, description, filename){newGoose = document.createElement
     gooseName = document.createElement("h2");
     gooseDescription = document.createElement("p");
 
-    gooseImage.src = "/assets/geese/" + filename;
+    gooseImage.src = window.location +  "/assets/geese/" + filename;
     gooseName.innerHTML = name;
     gooseDescription.innerHTML = description;
 
