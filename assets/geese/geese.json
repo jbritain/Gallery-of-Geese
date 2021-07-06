@@ -130,28 +130,28 @@
             "name" : "Mr Grin",
             "description" : "you know he had to do it to 'em",
             "filename" : "doittoem.jfif",
-            "author" : "Pr0x1mas"
+            "author" : "Somebody with a long name"
         },
 
         {
             "name" : "Incognito Mode",
             "description" : "These geese are always watching from the shadows, recording your browsing history...",
             "filename" : "incognito.jfif",
-            "author" : "Pr0x1mas"
+            "author" : "Somebody with a long name"
         },
 
         {
             "name" : "Level 5 Goose Warning",
             "description" : "The goose in this image cannot be seen. However, this sign clearly shows the danger this goose represents.",
             "filename" : "warning.jpg",
-            "author" : "Pr0x1mas"
+            "author" : "Somebody with a long name"
         },
 
         {
             "name" : "Another Banana",
             "description" : "The amount of photos of geese involving bananas is surprisingly high.",
             "filename" : "bananaagain.jpg",
-            "author" : "Pr0x1mas"
+            "author" : "Somebody with a long name"
         }
     ]
 }
