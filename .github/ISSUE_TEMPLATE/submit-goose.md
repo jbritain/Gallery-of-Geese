@@ -9,4 +9,4 @@ assignees: ''
 
 Goose Name:
 Goose Description:
-Goose Image:
+Goose Submittor:
