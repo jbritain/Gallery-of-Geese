@@ -110,6 +110,48 @@
             "description" : "The Classy Ones are the fanciest geese in town. They look down upon you, as an inferior peasant.",
             "filename" : "classy.jpg",
             "author" : "Pr0x1mas"
+        },
+
+        {
+            "name" : "HitGoose",
+            "description" : "It's nothing personal.",
+            "filename" : "hitgoose.jpg",
+            "author" : "Pr0x1mas"
+        },
+
+        {
+            "name" : "The Ascender",
+            "description" : "This goose will ascend from the murky depths and grab his victims, before taking them back down where they are never seen again.",
+            "filename" : "ascend.png",
+            "author" : "Pr0x1mas"
+        },
+
+        {
+            "name" : "Mr Grin",
+            "description" : "you know he had to do it to 'em",
+            "filename" : "doittoem.jfif",
+            "author" : "Pr0x1mas"
+        },
+
+        {
+            "name" : "Incognito Mode",
+            "description" : "These geese are always watching from the shadows, recording your browsing history...",
+            "filename" : "incognito.jfif",
+            "author" : "Pr0x1mas"
+        },
+
+        {
+            "name" : "Level 5 Goose Warning",
+            "description" : "The goose in this image cannot be seen. However, this sign clearly shows the danger this goose represents.",
+            "filename" : "warning.jpg",
+            "author" : "Pr0x1mas"
+        },
+
+        {
+            "name" : "Another Banana",
+            "description" : "The amount of photos of geese involving bananas is surprisingly high.",
+            "filename" : "bananaagain.jpg",
+            "author" : "Pr0x1mas"
         }
     ]
 }
