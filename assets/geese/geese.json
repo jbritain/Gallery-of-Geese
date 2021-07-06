@@ -76,6 +76,24 @@
             "name" : "Dogthroater",
             "description" : "This goose will reach down your throat and steal your internal organs. The motive is unknown.",
             "filename" : "dog.jpg"
+        },
+
+        {
+            "name" : "Plural Banana",
+            "description" : "the banan return in greater numbers",
+            "filename" : "bananas.jfif"
+        },
+
+        {
+            "name" : "The Goosciples",
+            "description" : "These geese are completely dedicated to The Goose Lord (pictured, 1st from top, third from right), and will submit to his will, no matter what it is",
+            "filename" : "whisperer.jpg"
+        },
+
+        {
+            "name" : "The Classy Ones",
+            "description" : "The Classy Ones are the fanciest geese in town. They look down upon you, as an inferior peasant.",
+            "filename" : "classy.jpg"
         }
     ]
 }

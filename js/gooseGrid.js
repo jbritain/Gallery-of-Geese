@@ -32,7 +32,7 @@ function createGooseGrid(){
 
 }
 
-function getGeese(){
+function getGeese(){  // get json file with all goose data
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.open("GET", window.location +  "/assets/geese/geese.json", false); // load geese from server
     //xmlhttp.open("GET", '/assets/geese/geese.json', false);
@@ -40,13 +40,13 @@ function getGeese(){
 
     if(xmlhttp.status == 200) {
         result = xmlhttp.responseText;
-        return JSON.parse(result);
+        return JSON.parse(result); // return goose data
     } else {
-        throw new Error("The server responded with a status of " + xmlhttp.status + " when loading " + xmlhttp.responseURL)
+        throw new Error("The server responded with a status of " + xmlhttp.status + " when loading " + xmlhttp.responseURL) // throw error so message is displayed if geese cannot be loaded
     }
 }
 
-function addGoose(name, description, filename){newGoose = document.createElement("div");
+function addGoose(name, description, filename){newGoose = document.createElement("div"); // add goose to page
     newGoose = document.createElement("div");
     newGooseText = document.createElement("div");
 
@@ -78,7 +78,7 @@ function addGoose(name, description, filename){newGoose = document.createElement
     geeseContainer.appendChild(newGoose);
 }
 
-function seededRandom(seed) { //https://stackoverflow.com/a/19303725
+function seededRandom(seed) { //https://stackoverflow.com/a/19303725 - normal js random does not allow for seeding but this one does, it is not very random but that does not matter
     var x = Math.sin(seed++) * 10000;
     return x - Math.floor(x);
 }
