@@ -20,7 +20,7 @@ function createGooseGrid(){
 
 function getGeese(){
     var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("GET", '/assets/geese/geese.json', false);
+    xmlhttp.open("GET", 'https://rawcdn.githack.com/Pr0x1mas/Gallery-of-Geese/3a8f0be0309b1ede60931726ada896c3bbf865ac/assets/geese/geese.json', false);
     xmlhttp.send();
 
     if(xmlhttp.status == 200) {
