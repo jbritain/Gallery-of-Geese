@@ -52,6 +52,8 @@ function addGoose(name, description, filename){newGoose = document.createElement
     newGooseText.appendChild(gooseName);
     newGooseText.appendChild(gooseDescription);
 
+    newGoose.setAttribute('onclick', "showGooseDisplay(this)");
+
     newGoose.appendChild(gooseImage);
     newGoose.appendChild(newGooseText);
 
@@ -62,4 +64,15 @@ function addGoose(name, description, filename){newGoose = document.createElement
 function seededRandom(seed) { //https://stackoverflow.com/a/19303725
     var x = Math.sin(seed++) * 10000;
     return x - Math.floor(x);
+}
+
+function showGooseDisplay(goose){
+    document.getElementById("largeGooseDisplay").style.top = "50%";
+    document.getElementById("lgdImg").src = goose.children[0].src;
+    document.getElementById("lgdName").innerHTML = goose.children[1].children[0].innerHTML;
+    document.getElementById("lgdDescription").innerHTML = goose.children[1].children[1].innerHTML;
+}
+
+function closeGooseDisplay(){
+    document.getElementById("largeGooseDisplay").style.top = "150%";
 }
