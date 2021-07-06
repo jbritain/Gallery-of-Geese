@@ -3,97 +3,113 @@
         {
             "name" : "Poster Goose",
             "description" : "This goose is the first one who appears if you google 'goose' so it gets to be here",
-            "filename" : "poster.jpg"
+            "filename" : "poster.jpg",
+            "author" : "Pr0x1mas"
         },
 
         {
             "name" : "Angry Fellow",
             "description" : "You have dared to approach this rather rotund fellow, you will regret such an endeavour",
-            "filename" : "angry fellow.jpg"
+            "filename" : "angry fellow.jpg",
+            "author" : "Pr0x1mas"
         },
 
         {
             "name" : "The Calm One",
             "description" : "Even in the most fiery of situations, this goose will remain perfectly calm. One could say he is based.",
-            "filename" : "flames.jpg"
+            "filename" : "flames.jpg",
+            "author" : "Somebody with a long name"
         },
 
         {
             "name" : "Evil Eye",
             "description" : "Once you make eye contact, you are locked in this goose's eerie gaze for the short remainder of your lifetime as it rapidly approaches you",
-            "filename" : "thestare.jpg"
+            "filename" : "thestare.jpg",
+            "author" : "Pr0x1mas"
         },
 
         {
             "name" : "Banana",
             "description" : "He is banan",
-            "filename" : "banana.jpg"
+            "filename" : "banana.jpg",
+            "author" : "Somebody with a long name"
         },
 
         {
             "name" : "Goose Bong",
             "description" : "Get stoned in style with this goose themed bong",
-            "filename" : "bong.jpg"
+            "filename" : "bong.jpg",
+            "author" : "Somebody with a long name"
         },
 
         {
             "name" : "Gangsta Goose",
             "description" : "This absolute G has arms and isn't afraid to use them",
-            "filename" : "arms.jfif"
+            "filename" : "arms.jfif",
+            "author" : "Pr0x1mas"
         },
 
         {
             "name" : "Scott",
             "description" : "So anyway, he started blasting",
-            "filename" : "gun.jpg"
+            "filename" : "gun.jpg",
+            "author" : "Pr0x1mas"
         },
 
         {
             "name" : "The Sphere",
             "description" : "The Sphere is able to instantly incapacitate all enemies by way of an attack similar to Sonic's dash.",
-            "filename" : "fat.jpg"
+            "filename" : "fat.jpg",
+            "author" : "Pr0x1mas"
         },
 
         {
             "name" : "Pegagoose",
             "description" : "We ride at dawn",
-            "filename" : "horse.jfif"
+            "filename" : "horse.jfif",
+            "author" : "Somebody with a long name"
         },
 
         {
             "name" : "Untitled Goose",
             "description" : "Peace was never an option",
-            "filename" : "untitled.jpg"
+            "filename" : "untitled.jpg",
+            "author" : "Pr0x1mas"
         },
 
         {
             "name" : "The Twins",
             "description" : "Double the geese, double the honking.",
-            "filename" : "twins.jpg"
+            "filename" : "twins.jpg",
+            "author" : "Pr0x1mas"
         },
 
         {
             "name" : "Dogthroater",
             "description" : "This goose will reach down your throat and steal your internal organs. The motive is unknown.",
-            "filename" : "dog.jpg"
+            "filename" : "dog.jpg",
+            "author" : "Pr0x1mas"
         },
 
         {
             "name" : "Plural Banana",
             "description" : "the banan return in greater numbers",
-            "filename" : "bananas.jfif"
+            "filename" : "bananas.jfif",
+            "author" : "Pr0x1mas"
         },
 
         {
             "name" : "The Goosciples",
             "description" : "These geese are completely dedicated to The Goose Lord (pictured, 1st from top, third from right), and will submit to his will, no matter what it is",
-            "filename" : "whisperer.jpg"
+            "filename" : "whisperer.jpg",
+            "author" : "Pr0x1mas"
         },
 
         {
             "name" : "The Classy Ones",
             "description" : "The Classy Ones are the fanciest geese in town. They look down upon you, as an inferior peasant.",
-            "filename" : "classy.jpg"
+            "filename" : "classy.jpg",
+            "author" : "Pr0x1mas"
         }
     ]
 }

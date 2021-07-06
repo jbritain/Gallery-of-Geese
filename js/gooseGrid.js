@@ -19,12 +19,14 @@ function createGooseGrid(){
         return;
     }
     
-    geese.forEach(goose => {
-        addGoose(goose.name, goose.description, goose.filename); // add geese to page
-    });
-
     var today = new Date();
     gooseOfTheDay = geese[Math.floor(seededRandom(today.getFullYear()+(today.getMonth()+1)+today.getDate()) * geese.length)];   // calculate goose of the day
+
+    geese.sort(() => Math.random() - 0.5); //randomise order of geese
+    geese.forEach(goose => {
+        addGoose(goose); // add geese to page
+    });
+    
 
     document.getElementById("gotdName").innerHTML = gooseOfTheDay.name; // display goose of the day
     document.getElementById("gotdDescription").innerHTML = gooseOfTheDay.description;
@@ -46,20 +48,21 @@ function getGeese(){  // get json file with all goose data
     }
 }
 
-function addGoose(name, description, filename){newGoose = document.createElement("div"); // add goose to page
+function addGoose(goose){
+    newGoose = document.createElement("div"); // add goose to page
     newGoose = document.createElement("div");
     newGooseText = document.createElement("div");
 
-    newGoose.id = name;
+    newGoose.id = goose.name;
     newGoose.classList.add("gooseCard");
 
     gooseImage = document.createElement("img");
     gooseName = document.createElement("h2");
     gooseDescription = document.createElement("p");
 
-    gooseImage.src = window.location +  "/assets/geese/" + filename;
-    gooseName.innerHTML = name;
-    gooseDescription.innerHTML = description;
+    gooseImage.src = window.location +  "/assets/geese/" + goose.filename;
+    gooseName.innerHTML = goose.name;
+    gooseDescription.innerHTML = goose.description;
 
     //newGoose.appendChild(gooseName);
     //newGoose.appendChild(gooseDescription);
@@ -68,8 +71,8 @@ function addGoose(name, description, filename){newGoose = document.createElement
 
     newGooseText.appendChild(gooseName);
     newGooseText.appendChild(gooseDescription);
-
     newGoose.setAttribute('onclick', "showGooseDisplay(this)");
+    newGoose.setAttribute('data-author', goose.author);
 
     newGoose.appendChild(gooseImage);
     newGoose.appendChild(newGooseText);
@@ -88,6 +91,7 @@ function showGooseDisplay(goose){
     document.getElementById("lgdImg").src = goose.children[0].src;
     document.getElementById("lgdName").innerHTML = goose.children[1].children[0].innerHTML;
     document.getElementById("lgdDescription").innerHTML = goose.children[1].children[1].innerHTML;
+    document.getElementById("lgdAuthor").innerHTML = "Submitted by " + goose.dataset.author;
     document.getElementById("darkenOverlay").style.visibility = "visible";
     document.getElementById("darkenOverlay").style.opacity = 1;
 }
