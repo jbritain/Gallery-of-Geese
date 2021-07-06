@@ -106,7 +106,7 @@
 }
 
 #largeGooseDisplay img {
-    width: 49%;
+    width: 45%;
     float: left;
     height: auto;
     object-fit: cover;
@@ -121,7 +121,9 @@
     padding: 8px;
     float: right;
     text-align: left;
-    width: 49%;
+    width: 45%;
+    position: relative;
+    top: 0px;
 }
 
 #lgdCloseButton {
@@ -140,5 +142,9 @@
 
     #largeGooseDisplay div {
         width: 90%;
+    }
+
+    #gooseOfTheDay {
+        min-height: 400px;
     }
 }
