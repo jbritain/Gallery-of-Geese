@@ -4,8 +4,8 @@ function createGooseGrid(){
     geeseContainer = document.getElementById("geeseContainer");
 
     try {
-        geese = getGeese().geese;
-    } catch (error) {
+        geese = getGeese().geese; // load geese
+    } catch (error) { // show error message
         document.getElementById("largeGooseDisplay").style.top = "50%";
         document.getElementById("lgdImg").src = window.location + "/assets/geese/" + "error.png";
         document.getElementById("lgdName").innerHTML = "Error";
@@ -20,13 +20,13 @@ function createGooseGrid(){
     }
     
     geese.forEach(goose => {
-        addGoose(goose.name, goose.description, goose.filename);
+        addGoose(goose.name, goose.description, goose.filename); // add geese to page
     });
 
-    var today = new Date();  
-    gooseOfTheDay = geese[Math.floor(seededRandom(today.getFullYear()+(today.getMonth()+1)+today.getDate()) * geese.length)];
+    var today = new Date();
+    gooseOfTheDay = geese[Math.floor(seededRandom(today.getFullYear()+(today.getMonth()+1)+today.getDate()) * geese.length)];   // calculate goose of the day
 
-    document.getElementById("gotdName").innerHTML = gooseOfTheDay.name;
+    document.getElementById("gotdName").innerHTML = gooseOfTheDay.name; // display goose of the day
     document.getElementById("gotdDescription").innerHTML = gooseOfTheDay.description;
     document.getElementById("gotdImg").src = window.location + "/assets/geese/" + gooseOfTheDay.filename;
 
@@ -34,7 +34,7 @@ function createGooseGrid(){
 
 function getGeese(){
     var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("GET", 'https://rawcdn.githack.com/Pr0x1mas/Gallery-of-Geese/3a8f0be0309b1ede60931726ada896c3bbf865ac/assets/geese/geese.json', false);
+    xmlhttp.open("GET", window.location +  "/assets/geese/geese.json", false); // load geese from server
     //xmlhttp.open("GET", '/assets/geese/geese.json', false);
     xmlhttp.send();
 
