@@ -58,6 +58,24 @@
             "name" : "Pegagoose",
             "description" : "We ride at dawn",
             "filename" : "horse.jfif"
+        },
+
+        {
+            "name" : "Untitled Goose",
+            "description" : "Peace was never an option",
+            "filename" : "untitled.jpg"
+        },
+
+        {
+            "name" : "The Twins",
+            "description" : "Double the geese, double the honking.",
+            "filename" : "twins.jpg"
+        },
+
+        {
+            "name" : "Dogthroater",
+            "description" : "This goose will reach down your throat and steal your internal organs. The motive is unknown.",
+            "filename" : "dog.jpg"
         }
     ]
 }

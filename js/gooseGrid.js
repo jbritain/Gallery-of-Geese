@@ -3,7 +3,21 @@ var geeseContainer;
 function createGooseGrid(){
     geeseContainer = document.getElementById("geeseContainer");
 
-    geese = getGeese().geese;
+    try {
+        geese = getGeese().geese;
+    } catch (error) {
+        document.getElementById("largeGooseDisplay").style.top = "50%";
+        document.getElementById("lgdImg").src = window.location + "/assets/geese/" + "error.png";
+        document.getElementById("lgdName").innerHTML = "Error";
+        document.getElementById("lgdDescription").innerHTML = `
+            There was an error loading geese <br> <br>
+            <code>` + error + `</code> <br> <br>
+            Try reloading the page. If this does not work, maybe come back later, or if worst comes to worst, <a href="https://github.com/Pr0x1mas/Gallery-of-Geese/issues/new/choose">submit an issue report</a>
+        `;
+        document.getElementById("darkenOverlay").style.visibility = "visible";
+        document.getElementById("darkenOverlay").style.opacity = 1;
+        return;
+    }
     
     geese.forEach(goose => {
         addGoose(goose.name, goose.description, goose.filename);
@@ -21,11 +35,14 @@ function createGooseGrid(){
 function getGeese(){
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.open("GET", 'https://rawcdn.githack.com/Pr0x1mas/Gallery-of-Geese/3a8f0be0309b1ede60931726ada896c3bbf865ac/assets/geese/geese.json', false);
+    //xmlhttp.open("GET", '/assets/geese/geese.json', false);
     xmlhttp.send();
 
     if(xmlhttp.status == 200) {
         result = xmlhttp.responseText;
         return JSON.parse(result);
+    } else {
+        throw new Error("The server responded with a status of " + xmlhttp.status + " when loading " + xmlhttp.responseURL)
     }
 }
 
