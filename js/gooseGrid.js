@@ -71,8 +71,12 @@ function showGooseDisplay(goose){
     document.getElementById("lgdImg").src = goose.children[0].src;
     document.getElementById("lgdName").innerHTML = goose.children[1].children[0].innerHTML;
     document.getElementById("lgdDescription").innerHTML = goose.children[1].children[1].innerHTML;
+    document.getElementById("darkenOverlay").style.visibility = "visible";
+    document.getElementById("darkenOverlay").style.opacity = 1;
 }
 
 function closeGooseDisplay(){
     document.getElementById("largeGooseDisplay").style.top = "150%";
+    document.getElementById("darkenOverlay").style.visibility = "hidden";
+    document.getElementById("darkenOverlay").style.opacity = 0;
 }
