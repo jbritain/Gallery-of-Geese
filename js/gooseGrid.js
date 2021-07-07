@@ -72,7 +72,12 @@ function addGoose(goose){
     newGooseText.appendChild(gooseName);
     newGooseText.appendChild(gooseDescription);
     newGoose.setAttribute('onclick', "showGooseDisplay(this)");
+
+    newGoose.setAttribute('data-name', goose.name);
+    newGoose.setAttribute('data-description', goose.description);
+    newGoose.setAttribute('data-filename', goose.filename);
     newGoose.setAttribute('data-author', goose.author);
+    newGoose.setAttribute('data-date', goose.date);
 
     newGoose.appendChild(gooseImage);
     newGoose.appendChild(newGooseText);
@@ -88,10 +93,10 @@ function seededRandom(seed) { //https://stackoverflow.com/a/19303725 - normal js
 
 function showGooseDisplay(goose){
     document.getElementById("largeGooseDisplay").style.top = "50%";
-    document.getElementById("lgdImg").src = goose.children[0].src;
-    document.getElementById("lgdName").innerHTML = goose.children[1].children[0].innerHTML;
-    document.getElementById("lgdDescription").innerHTML = goose.children[1].children[1].innerHTML;
-    document.getElementById("lgdAuthor").innerHTML = "Submitted by " + goose.dataset.author;
+    document.getElementById("lgdImg").src = window.location +  "/assets/geese/" + goose.dataset.filename;
+    document.getElementById("lgdName").innerHTML = goose.dataset.name;
+    document.getElementById("lgdDescription").innerHTML = goose.dataset.description;
+    document.getElementById("lgdAuthor").innerHTML = "Submitted by " + goose.dataset.author + " on " + goose.dataset.date;
     document.getElementById("darkenOverlay").style.visibility = "visible";
     document.getElementById("darkenOverlay").style.opacity = 1;
 }

@@ -4,154 +4,192 @@
             "name" : "Poster Goose",
             "description" : "This goose is the first one who appears if you google 'goose' so it gets to be here",
             "filename" : "poster.jpg",
-            "author" : "Pr0x1mas"
+            "author" : "Pr0x1mas",
+            "date" : "05/07/2021"
         },
 
         {
             "name" : "Angry Fellow",
             "description" : "You have dared to approach this rather rotund fellow, you will regret such an endeavour",
             "filename" : "angry fellow.jpg",
-            "author" : "Pr0x1mas"
+            "author" : "Pr0x1mas",
+            "date" : "05/07/2021"
         },
 
         {
             "name" : "The Calm One",
             "description" : "Even in the most fiery of situations, this goose will remain perfectly calm. One could say he is based.",
             "filename" : "flames.jpg",
-            "author" : "Somebody with a long name"
+            "author" : "Somebody with a long name",
+            "date" : "05/07/2021"
         },
 
         {
             "name" : "Evil Eye",
             "description" : "Once you make eye contact, you are locked in this goose's eerie gaze for the short remainder of your lifetime as it rapidly approaches you",
             "filename" : "thestare.jpg",
-            "author" : "Pr0x1mas"
+            "author" : "Pr0x1mas",
+            "date" : "05/07/2021"
         },
 
         {
             "name" : "Banana",
             "description" : "He is banan",
             "filename" : "banana.jpg",
-            "author" : "Somebody with a long name"
+            "author" : "Somebody with a long name",
+            "date" : "05/07/2021"
         },
 
         {
             "name" : "Goose Bong",
             "description" : "Get stoned in style with this goose themed bong",
             "filename" : "bong.jpg",
-            "author" : "Somebody with a long name"
+            "author" : "Somebody with a long name",
+            "date" : "05/07/2021"
         },
 
         {
             "name" : "Gangsta Goose",
             "description" : "This absolute G has arms and isn't afraid to use them",
             "filename" : "arms.jfif",
-            "author" : "Pr0x1mas"
+            "author" : "Pr0x1mas",
+            "date" : "05/07/2021"
         },
 
         {
             "name" : "Scott",
             "description" : "So anyway, he started blasting",
             "filename" : "gun.jpg",
-            "author" : "Pr0x1mas"
+            "author" : "Pr0x1mas",
+            "date" : "05/07/2021"
         },
 
         {
             "name" : "The Sphere",
             "description" : "The Sphere is able to instantly incapacitate all enemies by way of an attack similar to Sonic's dash.",
             "filename" : "fat.jpg",
-            "author" : "Pr0x1mas"
+            "author" : "Pr0x1mas",
+            "date" : "05/07/2021"
         },
 
         {
             "name" : "Pegagoose",
             "description" : "We ride at dawn",
             "filename" : "horse.jfif",
-            "author" : "Somebody with a long name"
+            "author" : "Somebody with a long name",
+            "date" : "05/07/2021"
         },
 
         {
             "name" : "Untitled Goose",
             "description" : "Peace was never an option",
             "filename" : "untitled.jpg",
-            "author" : "Pr0x1mas"
+            "author" : "Pr0x1mas",
+            "date" : "06/07/2021"
         },
 
         {
             "name" : "The Twins",
             "description" : "Double the geese, double the honking.",
             "filename" : "twins.jpg",
-            "author" : "Pr0x1mas"
+            "author" : "Pr0x1mas",
+            "date" : "06/07/2021"
         },
 
         {
             "name" : "Dogthroater",
             "description" : "This goose will reach down your throat and steal your internal organs. The motive is unknown.",
             "filename" : "dog.jpg",
-            "author" : "Pr0x1mas"
+            "author" : "Pr0x1mas",
+            "date" : "06/07/2021"
         },
 
         {
             "name" : "Plural Banana",
             "description" : "the banan return in greater numbers",
             "filename" : "bananas.jfif",
-            "author" : "Pr0x1mas"
+            "author" : "Pr0x1mas",
+            "date" : "06/07/2021"
         },
 
         {
             "name" : "The Goosciples",
             "description" : "These geese are completely dedicated to The Goose Lord (pictured, 1st from top, third from right), and will submit to his will, no matter what it is",
             "filename" : "whisperer.jpg",
-            "author" : "Pr0x1mas"
+            "author" : "Pr0x1mas",
+            "date" : "06/07/2021"
         },
 
         {
             "name" : "The Classy Ones",
             "description" : "The Classy Ones are the fanciest geese in town. They look down upon you, as an inferior peasant.",
             "filename" : "classy.jpg",
-            "author" : "Pr0x1mas"
+            "author" : "Pr0x1mas",
+            "date" : "06/07/2021"
         },
 
         {
             "name" : "HitGoose",
             "description" : "It's nothing personal.",
             "filename" : "hitgoose.jpg",
-            "author" : "Pr0x1mas"
+            "author" : "Pr0x1mas",
+            "date" : "06/07/2021"
         },
 
         {
             "name" : "The Ascender",
             "description" : "This goose will ascend from the murky depths and grab his victims, before taking them back down where they are never seen again.",
             "filename" : "ascend.png",
-            "author" : "Pr0x1mas"
+            "author" : "Pr0x1mas",
+            "date" : "06/07/2021"
         },
 
         {
             "name" : "Mr Grin",
             "description" : "you know he had to do it to 'em",
             "filename" : "doittoem.jfif",
-            "author" : "Somebody with a long name"
+            "author" : "Somebody with a long name",
+            "date" : "06/07/2021"
         },
 
         {
             "name" : "Incognito Mode",
             "description" : "These geese are always watching from the shadows, recording your browsing history...",
             "filename" : "incognito.jfif",
-            "author" : "Somebody with a long name"
+            "author" : "Somebody with a long name",
+            "date" : "06/07/2021"
         },
 
         {
             "name" : "Level 5 Goose Warning",
             "description" : "The goose in this image cannot be seen. However, this sign clearly shows the danger this goose represents.",
             "filename" : "warning.jpg",
-            "author" : "Somebody with a long name"
+            "author" : "Somebody with a long name",
+            "date" : "06/07/2021"
         },
 
         {
             "name" : "Another Banana",
             "description" : "The amount of photos of geese involving bananas is surprisingly high.",
             "filename" : "bananaagain.jpg",
-            "author" : "Somebody with a long name"
+            "author" : "Somebody with a long name",
+            "date" : "06/07/2021"
+        },
+
+        {
+            "name" : "The Thief",
+            "description" : "Look away for even a second and your posessions will vanish into the night",
+            "filename" : "thief.jpg",
+            "author" : "Pr0x1mas",
+            "date" : "07/07/2021"
+        },
+
+        {
+            "name" : "Goosed",
+            "description" : "This goose has had a few too many and will probably regret it in the morning",
+            "filename" : "vomit.png",
+            "author" : "Pr0x1mas",
+            "date" : "07/07/2021"
         }
     ]
 }
