@@ -14,6 +14,7 @@ function createGooseGrid(){
             <code>` + error + `</code> <br> <br>
             Try reloading the page. If this does not work, maybe come back later, or if worst comes to worst, <a href="https://github.com/Pr0x1mas/Gallery-of-Geese/issues/new/choose">submit an issue report</a>
         `;
+		document.getElementById("lgdAuthor").innerHTML = "";
         document.getElementById("darkenOverlay").style.visibility = "visible";
         document.getElementById("darkenOverlay").style.opacity = 1;
         return;
