@@ -214,6 +214,22 @@
 			"filename" : "pov.jpg",
 			"author" : "Pr0x1mas",
 			"date" : "08/07/2021"
-		}
+		},
+	    
+	    	{
+			"name" : "Craned",
+			"description" : "This goose has its neck it what seems to be an uncomfortable position.",
+			"filename" : "goose.jpg",
+			"author" : "TheProgramableTurtle",
+			"date" : "17/07/2021"
+		},
+	    
+	    	{
+			"name" : "Satisfied",
+			"description" : "The goose in this picture is just happy to see you.",
+			"filename" : "gooseSquare2.jpg",
+			"author" : "TheProgramableTurtle",
+			"date" : "17/07/2021"
+		},
     ]
 }
