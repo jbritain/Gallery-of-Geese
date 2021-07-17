@@ -218,7 +218,7 @@
 	    
 	    	{
 			"name" : "Craned",
-			"description" : "This goose has its neck it what seems to be an uncomfortable position.",
+			"description" : "This goose has its neck in what seems to be an uncomfortable position.",
 			"filename" : "goose.jpg",
 			"author" : "TheProgramableTurtle",
 			"date" : "17/07/2021"
@@ -230,6 +230,6 @@
 			"filename" : "gooseSquare2.jpg",
 			"author" : "TheProgramableTurtle",
 			"date" : "17/07/2021"
-		},
+		}
     ]
 }
