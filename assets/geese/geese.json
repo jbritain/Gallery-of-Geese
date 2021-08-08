@@ -238,6 +238,14 @@
 			"filename" : "australian.webp",
 			"author" : "Pr0x1mas",
 			"date" : "04/08/2021"
+		},
+
+		{
+			"name" : "Socks",
+			"description" : "Now you too can have geese on your feet.",
+			"filename" : "socks.jpg",
+			"author" : "Pr0x1mas",
+			"date" : "08/08/2021"
 		}
     ]
 }
