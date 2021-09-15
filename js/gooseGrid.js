@@ -37,7 +37,7 @@ function createGooseGrid(){
 
 function getGeese(){  // get json file with all goose data
     var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("GET", window.location +  "/assets/geese/geese.json", false); // load geese from server
+    xmlhttp.open("GET", window.location.split("?")[0] +  "/assets/geese/geese.json", false); // load geese from server
     //xmlhttp.open("GET", '/assets/geese/geese.json', false);
     xmlhttp.send();
 
