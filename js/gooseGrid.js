@@ -31,7 +31,7 @@ function createGooseGrid(){
 
     document.getElementById("gotdName").innerHTML = gooseOfTheDay.name; // display goose of the day
     document.getElementById("gotdDescription").innerHTML = gooseOfTheDay.description;
-    document.getElementById("gotdImg").src = window.location + "/assets/geese/" + gooseOfTheDay.filename;
+    document.getElementById("gotdImg").src = String(window.location).split("?")[0] + "/assets/geese/" + gooseOfTheDay.filename;
 
 }
 
