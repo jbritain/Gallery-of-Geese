@@ -37,7 +37,8 @@ function createGooseGrid(){
 
 function getGeese(){  // get json file with all goose data
     var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("GET", window.location.split("?")[0] +  "/assets/geese/geese.json", false); // load geese from server
+    gooseLocation = 
+    xmlhttp.open("GET", String(window.location).split("?")[0] +  "/assets/geese/geese.json", false); // load geese from server
     //xmlhttp.open("GET", '/assets/geese/geese.json', false);
     xmlhttp.send();
 
@@ -61,7 +62,7 @@ function addGoose(goose){
     gooseName = document.createElement("h2");
     gooseDescription = document.createElement("p");
 
-    gooseImage.src = window.location +  "/assets/geese/" + goose.filename;
+    gooseImage.src = String(window.location).split("?")[0] +  "/assets/geese/" + goose.filename;
     gooseName.innerHTML = goose.name;
     gooseDescription.innerHTML = goose.description;
 
@@ -94,7 +95,7 @@ function seededRandom(seed) { //https://stackoverflow.com/a/19303725 - normal js
 
 function showGooseDisplay(goose){
     document.getElementById("largeGooseDisplay").style.top = "50%";
-    document.getElementById("lgdImg").src = window.location +  "/assets/geese/" + goose.dataset.filename;
+    document.getElementById("lgdImg").src = String(window.location).split("?")[0] +  "/assets/geese/" + goose.dataset.filename;
     document.getElementById("lgdName").innerHTML = goose.dataset.name;
     document.getElementById("lgdDescription").innerHTML = goose.dataset.description;
     document.getElementById("lgdAuthor").innerHTML = "Submitted by " + goose.dataset.author + " on " + goose.dataset.date;
