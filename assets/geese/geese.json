@@ -248,17 +248,9 @@
 		"date" : "08/08/2021"
 	},
 
-	{
-		"name" : "Long Boi",
-		"description" : "His neck knows no bounds.",
-		"filename" : "longboi.jpg",
-		"author" : "Pr0x1mas",
-		"date" : "27/08/2021"
-	},
-
-    {
+    	{
 		"name" : "Pizza Goose",
-		"description" : "'Eat it', he says. He isn't asking",
+		"description" : "'Eat it', he says. He isn't asking.",
 		"filename" : "goose man.png",
 		"author" : "Pr0x1mas",
 		"date" : "21/11/2021"
