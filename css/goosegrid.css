@@ -41,11 +41,6 @@
     line-height: normal;
 }
 
-.gooseCard div:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-}
-
 @media (max-width: 1200px) {
     #geeseContainer {
     -moz-column-count:    4;
